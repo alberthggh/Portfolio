@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h2>Formulaire d'inscription</h2>
+    <form action="#" method="post">
+        <div id="container">
+            <div class="b">
+                <label for="nom">Nom : </label>
+                <input type="text" id="nom" name="nom" required />
+            </div>
+            <div class="b">
+                <label for="prenom">Prenom : </label>
+                <input type="text" id="prenom" name="prenom" required/>
+            </div>
+            <div class="b">
+                <label for="email">Adresse mail : </label>
+                <input type="email" id="email" name="email" required/>
+            </div>
+            <div class="b">
+                <label for="sexe">Votre sexe : </label></br>
+                <input class="a" type="radio" id="masculin" name="sexe" value="masculin" required/>
+                <label for="masculin">Male</label><br/>
+                <input class="a" type="radio" id="feminin" name="sexe" value="feminin" required/>
+                <label for="feminin">Femelle</label>
+            </div>
+            <div class="b">
+                <label for="password">Mot de passe : </label>
+                <input type="password" id="password" name="password" required/>
+            </div>
+            <div class="b">
+                <label for="confirm">Confirmer votre mot de passe : </label>
+                <input type="password" id="confirm" name="confirm" required/>
+            </div>
+            <div class="bouton">
+                <input class="e" type="submit"  value="envoyer"/>
+                <input class="s" type="reset" value="supprimer"/>
+            </div>
+        </div>
+    </form>
+    <p>"Le remplissage de tous les champs est obligatoire"</p>
+</body>
+</html>
