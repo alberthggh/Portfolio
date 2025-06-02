@@ -8,11 +8,11 @@
 </head>
 <body>
     <h2>Formulaire d'inscription</h2>
-    <form action="#" method="post">
+    <form action="#" method="post" id="form">
         <div id="container">
             <div class="b">
                 <label for="nom">Nom : </label>
-                <input type="text" id="nom" name="nom" required />
+                <input type="text" id="nom" name="nom" required/>
             </div>
             <div class="b">
                 <label for="prenom">Prenom : </label>
@@ -31,11 +31,13 @@
             </div>
             <div class="b">
                 <label for="password">Mot de passe : </label>
-                <input type="password" id="password" name="password" required/>
+                <input type="password" id="password" name="password"/>
+                <p id="message"></p>
             </div>
             <div class="b">
                 <label for="confirm">Confirmer votre mot de passe : </label>
-                <input type="password" id="confirm" name="confirm" required/>
+                <input type="password" id="confirm" name="confirm"/>
+                </p><p id="message1"></p>
             </div>
             <div class="bouton">
                 <input class="e" type="submit"  value="envoyer"/>
@@ -43,6 +45,7 @@
             </div>
         </div>
     </form>
-    <p>"Le remplissage de tous les champs est obligatoire"</p>
+    <p id="message2"></p>
+    <script src="script.js"></script>
 </body>
 </html>

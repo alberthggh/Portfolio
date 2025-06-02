@@ -35,3 +35,42 @@ input{
     width: 50%;
     border-radius: 5%;
 }
+@media all and(max-width: 1280px){
+    body{
+        margin: 0px;
+        padding: 1%;
+        background-color: #ccc;
+    }
+    form{
+        width: 50%;
+        height: 30%;
+        padding: 1%;
+        margin: 2%;
+        background-color: darkgray;
+        border: 1px solid black;
+    }
+    .bouton{
+        padding-left: 60%;
+        display: inline;
+        justify-content: space-between;
+    }
+    .e{
+        background-color: green;
+        width: 15%;
+    }
+    .s{
+        background-color: red;
+        width: 15%;
+    }
+    .b{
+        margin-bottom: 3px;
+    }
+    .a{
+        width: 15%;
+        padding-right: 20%;
+    }
+    input{
+        width: 50%;
+        border-radius: 5%;
+    }
+}
